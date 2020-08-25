@@ -1,0 +1,22 @@
+body {
+    background-color: #eceff1;
+}
+#form-pergunta {
+    margin-top: 5vh;
+}
+nav {
+    background-color: #b4e4fa;
+}
+.btn {
+    background-color: #b4e4fa;
+}
+
+.btn:hover {
+    transition: 0.5s;
+    background-color: rgb(6, 135, 255);
+    color: white;
+}
+.perguntaId {
+    font-size: 18px;
+    font-weight: bold;
+}

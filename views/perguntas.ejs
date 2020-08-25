@@ -1,0 +1,23 @@
+<%- include ('partials/header.ejs') %>
+<body>
+    <%- include ('partials/navbar.ejs') %>
+    <div class="container"> <!-- recurso do bootstrap -->
+        <div class="card" id="form-pergunta">
+            <div class="card-header">
+                <h3>Realizar pergunta</h3>
+            </div>
+            <div class="card-body">
+                <form action="/salvarPergunta" method="POST"> <!-- Dessa forma manda para o node -->
+                    <label>Título</label>
+                    <input type="text" name="titulo" placeholder="Título" class="form-control" required> <!-- form-control é do bootstrap -->
+                    <br>
+                    <label>Descrição</label>
+                    <textarea name="descricao" placeholder="Descreva sua pergunta aqui"  class="form-control" required></textarea>
+                    <br>
+                    <button class="btn" type="submit">Perguntar</button> <!-- Recurso bootstrap -->
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+<%- include ('partials/footer.ejs') %>
