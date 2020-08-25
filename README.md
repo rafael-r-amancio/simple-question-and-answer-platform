@@ -5,8 +5,8 @@ Aplicação contém campos para inserir perguntas e de responder outras duvidas 
 
 Tecnologias utilizadas: HTML5, CSS, JS, Bootstrap, NodeJS, Express, Body-Parser, Sequelize, Nodemon, MySQL.
 
-![](Screen1.png)
-![](Screen2.png)
+![](Screen1.PNG)
+![](Screen2.PNG)
 
 ## Instalação
 Após baixar o arquivo ZIP ou realizar o git clone do projeto, estando dentro do diretorio, rode no terminal:
